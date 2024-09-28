@@ -1,4 +1,4 @@
-package com.example.ToDoApp.model;
+package com.example.UserEventApp.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;

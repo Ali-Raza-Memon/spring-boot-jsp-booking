@@ -1,4 +1,4 @@
- package com.example.ToDoApp;
+ package com.example.UserEventApp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.example.ToDoApp.model;
+package com.example.UserEventApp.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -9,7 +9,7 @@ import java.time.LocalDate;
 @Table(name = "bookings")
 @Setter
 @Getter
-public class Booking {
+public class  Booking {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

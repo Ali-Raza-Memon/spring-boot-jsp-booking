@@ -1,7 +1,7 @@
-package com.example.ToDoApp.restController;
+package com.example.UserEventApp.restController;
 
-import com.example.ToDoApp.model.Booking;
-import com.example.ToDoApp.service.BookingService;
+import com.example.UserEventApp.model.Booking;
+import com.example.UserEventApp.service.BookingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

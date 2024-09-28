@@ -1,6 +1,6 @@
-package com.example.ToDoApp.repo;
+package com.example.UserEventApp.repo;
 
-import com.example.ToDoApp.model.Booking;
+import com.example.UserEventApp.model.Booking;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

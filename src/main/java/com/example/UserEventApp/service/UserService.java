@@ -1,8 +1,7 @@
-package com.example.ToDoApp.service;
+package com.example.UserEventApp.service;
 
-import com.example.ToDoApp.model.User;
-import com.example.ToDoApp.repo.UserRepository;
-import com.example.ToDoApp.service.UserService;
+import com.example.UserEventApp.model.User;
+import com.example.UserEventApp.repo.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
