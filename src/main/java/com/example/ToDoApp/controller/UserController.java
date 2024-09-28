@@ -12,6 +12,11 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    @GetMapping({"/", "Index"})
+    public String home() {
+        return "Index";
+    }
+
     @GetMapping("/users")
     public String viewAllUsers(Model model) {
         model.addAttribute("users", userService.getAllUsers());

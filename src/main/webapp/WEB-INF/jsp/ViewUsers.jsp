@@ -33,7 +33,7 @@
                 <td>${user.email}</td>
                 <td>${user.phoneNumber}</td>
                 <td>
-                    <a href="/editUser/${user.id}" class="btn btn-primary">Edit</a>
+
                     <a href="/deleteUser/${user.id}" class="btn btn-danger">Delete</a>
                 </td>
             </tr>
